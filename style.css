@@ -1,0 +1,89 @@
+.text{
+    color:#fff;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.panel{
+    margin-top: 70px;
+    width: 60%;
+    position: relative;
+    left:20%
+    
+}
+.text2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2 :hover{
+    text-decoration: none;
+}
+.color{
+
+    background-color:snow;
+    border-radius: 10px;
+    padding: 2;
+}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 5%;
+    z-index: 2;
+}
+.jumbotron{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    z-index: 2;
+}
+.jumbotron h1{
+    text-align: center;
+}
+.searchform{
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.display-4{
+    color: aliceblue;
+    font-size: 40px;
+}
+.backimg{
+    background-image: url("images/poster4.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+#movies{
+    margin-top: 25%;
+    position: relative;
+    max-width:100%;
+    top:25%;
+    z-index: 2;
+    
+}
+.img{
+    width: 70%;
+    height: 100%;
+}
+.blur{
+    filter: blur(3px);
+}
+h5{
+    padding-top:5px ;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width: 768px){
+    .display-4{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 15px;
+    }
+}
