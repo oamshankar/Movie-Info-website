@@ -6,29 +6,26 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="backimg"></div> 
     <div class="box">
-        <nav class="navbar navbar-light bg-dark">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/movie2.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-                <span class="text">Movie Info</span>
-            </a>
-        </nav>
-        <div class="jumbotron bg-dark panel">
-            <div class="container">
-                <h1 class="display-4">Search For Any Movie </h1>
-                <form id="Searchmovie">
-                    <input type="text" class="searchform" placeholder="Search Movies....">
-                </form>
-            </div>
+        <div class="branding">
+            <h1>Movie Info</h1>
+            <img src="./images/brand-img.png"/>      
         </div>
-        <div class="conatiner">
+        <div class="searching">
+            <form id="Searchmovie">
+                <input type="text" class="btn searchform" placeholder="Search Movies">
+            </form>
+        </div>
+        <div class="container">
             <div id="movies" class="row"></div>
         </div>
     </div>
